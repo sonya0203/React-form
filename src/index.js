@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App";
-import Home from "./Components/Form/Home";
-
-
+import ProtectedRouting from "./mini projects/Routing/ProtetedRouting/ProtectedRouting";
 
 
 
@@ -12,7 +10,7 @@ import Home from "./Components/Form/Home";
 function FavoriteColor() {
 
   return (
-  <Home />
+  <ProtectedRouting />
   )
 }
 
