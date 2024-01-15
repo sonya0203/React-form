@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import App from "./App";
-import ProtectedRouting from "./mini projects/Routing/ProtetedRouting/ProtectedRouting";
+import App from "./App";
 
 
 
@@ -10,7 +9,7 @@ import ProtectedRouting from "./mini projects/Routing/ProtetedRouting/ProtectedR
 function FavoriteColor() {
 
   return (
-  <ProtectedRouting />
+  <App/>
   )
 }
 

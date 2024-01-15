@@ -1,9 +1,9 @@
 import React from 'react'
-
+import ProtetedRouting from "./mini projects/Routing/ProtetedRouting/ProtectedRouting"
 function App() {
   return (
-    <div>App</div>
-  )
+<ProtetedRouting/>
+    )
 }
 
 export default App

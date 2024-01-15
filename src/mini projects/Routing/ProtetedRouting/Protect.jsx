@@ -11,7 +11,7 @@ navigate("/login")
         }
     })
   return (
-  <div> <Component/ ></div>
+  <div> <Component/ ></div> 
   )
 }
 
