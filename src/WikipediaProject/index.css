@@ -4,7 +4,7 @@
 .Container {
   font-family: sans-serif;
   width: 100%;
-  height: 200%;
+  height: 100%;
 }
 .navBar {
   width: 100%;
@@ -42,12 +42,18 @@
 .dropDown-icon {
   margin-left: 40px;
 }
+.navMiddle{
+  flex-grow: 1;
+}
+
 .navMiddle {
   width: 500px;
-  display:flex;
+  display: flex;
 justify-content: space-between;
   align-items: center;
-  border: 1px solid rgb(236, 230, 230);
+  border: 3px solid rgb(236, 230, 230);
+  height: 30px;
+  
 }
 
 .input {
@@ -56,31 +62,33 @@ justify-content: space-between;
   border: none;
   outline: none;
   text-align: start;
-  /* margin-right: auto; */
+  margin-right: auto;
 }
 
 .button-Icon {
   text-align: center;
   background-color: rgb(78, 78, 253);
-  height: 21px;
+  height: 20px;
   width: 80px;
-
+  padding: 5px;
 }
 
-/* .search-logo2{
+.search-logo2{
   width: 0px;
   visibility: hidden;
-} */
-.navLeft {
-  display: flex;
-  justify-content: end;
-  margin-left: auto;
-  margin-right: 15px;
 }
-.left-Links a {
+.navLeft {
  
- margin-right: 0px;
-  text-decoration: none;
+  margin-left: auto;
+ 
+}
+.left-Links  {
+margin: 10px;
+text-decoration: none;
+
+}
+.left-Links a{
+padding:0  5px;
 }
 .sideBar {
   display: flex;
@@ -220,11 +228,11 @@ visibility: hidden;
   border-color: rgb(145, 136, 136);
 }
 .toolbar {
-  display: flex;
+  display: block;
 }
-.toolbar ul:last-child {
+/* .toolbar ul:last-child {
   margin-left: auto;
-}
+} */
 .toolbar ul li a:hover {
   text-decoration: underline;
 }
@@ -238,6 +246,25 @@ visibility: hidden;
   font-size: 14px;
 }
 .toolbar ul li a {
+  text-decoration: none;
+}
+.toolbar1 {
+  display: block;
+  float: right;
+}
+.toolbar1 ul li a:hover {
+  text-decoration: underline;
+}
+.toolbar1 ul {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+  padding: 3px;
+  margin: 0px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.toolbar1 ul li a {
   text-decoration: none;
 }
 .information {
@@ -567,26 +594,17 @@ visibility: hidden;
   .navMiddle
   {
     width: 400px;
-    margin-left: 72px;
+    margin-left: 30px;
   }
 }
-@media (max-width: 851px){
+@media (max-width: 862px){
 .navMiddle{
+width: 300px;
+margin-left: 50px;
 
-width: 350px;
-margin-left: 60px;
 }
-
-
 } 
-@media (max-width: 765px){
-  .navMiddle{
-
-    width: 300px;
-    
-    }
-}
-@media (max-width: 719px) {
+@media (max-width: 760px) {
 .input{
   display: none;
 }
@@ -594,13 +612,27 @@ margin-left: 60px;
   display: none;
 }
 .navMiddle{
- 
-border: hidden;
+  display: block;
+ border: hidden;
+ width: 200px;
 }
 .search-logo{
   float: right;
+  padding-top: 5px;
 }
+}
+@media (max-width: 600px){
+  .logo {
+    display: none ;
+  }
+  .left-Links{
+    display: none ;
+  }
+  .rightItems{
+    display: none;
+  }
+  .toolbar1{
+    display: none;
 
-  
-
+  }
 }

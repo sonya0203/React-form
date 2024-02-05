@@ -67,12 +67,9 @@ function WikipediaProject() {
           <i className='search-logo'>&#128269;</i>
           <input type='text' placeholder='Search Wikipedia' className='input'></input>
           <label className='button-Icon'>Search</label>
-          
+          </div>
 
-        </div>
-        {/* <input type='checkbox' id='search'></input>
-        <label htmlFor="search">
-        <i id='logo2'>&#128269;</i></label> */}
+        
         <div className='navLeft'>
           <div className='left-Links'>
             <a href='#'>Create account</a>
@@ -155,18 +152,21 @@ function WikipediaProject() {
             </div>
           </div>
           <hr></hr>
-          <div className='toolbar'>
-            <ul>
-              <li><a href='#' >Article </a></li>
-              <li> <a href='#'>Talk</a></li>
-            </ul>
-            <ul>
+          <div className='toolbar1'>
+            <ul >
               <li><a href='#'>Read</a></li>
               <li><a href='#'>View source</a></li>
               <li><a href='#'>View history</a></li>
               <li><a href='#'>tools</a></li>
             </ul>
           </div>
+          <div className='toolbar'>
+            <ul>
+              <li><a href='#' >Article </a></li>
+              <li> <a href='#'>Talk</a></li>
+            </ul>
+            </div>
+          
           <hr></hr>
 
           <div className='information'>
