@@ -9,18 +9,17 @@ function Home() {
   const [record, setRecord] = useState([]);
 
   const HandleInput = (e) => {
-    const name = e.target.name;  
+    const name = e.target.name;
     const value = e.target.value;
-    console.log(value)
-    setInputValue({ ...InputValue, [name]  : value });
+    console.log(value);
+    setInputValue({ ...InputValue, [name]: value });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     const newRecord = { ...InputValue, id: new Date().getTime().toString() };
     console.log(newRecord);
-    setRecord([...record,newRecord])
-     setInputValue({ username: "", phone: "", email: "" });
+    setRecord([...record, newRecord]);
+    setInputValue({ username: "", phone: "", email: "" });
   };
 
   return (
@@ -29,18 +28,19 @@ function Home() {
         <div>
           <label htmlFor="username">USERNAME</label>
           <input
-            type="text"autoComplete="off"
+            type="text"
+            autoComplete="off"
             value={InputValue.username}
             onChange={HandleInput}
             name="username"
             id="username"
-            
           ></input>
         </div>
         <div>
           <label htmlFor="phone">PHONE NO.</label>
           <input
-            type="text"autoComplete="off"
+            type="text"
+            autoComplete="off"
             value={InputValue.phone}
             onChange={HandleInput}
             name="phone"
@@ -50,7 +50,8 @@ function Home() {
         <div>
           <label htmlFor="email">EMAIL</label>
           <input
-            type="text"autoComplete="off"
+            type="text"
+            autoComplete="off"
             value={InputValue.email}
             onChange={HandleInput}
             name="email"

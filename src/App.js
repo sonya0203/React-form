@@ -1,8 +1,9 @@
 import React from 'react'
-import ProtetedRouting from "./mini projects/Routing/ProtetedRouting/ProtectedRouting"
+
+import WikipediaProject from './WikipediaProject/WikipediaProject' 
 function App() {
   return (
-<ProtetedRouting/>
+< WikipediaProject/>
     )
 }
 
