@@ -152,7 +152,7 @@ function WikipediaProject() {
             </div>
           </div>
           <hr></hr>
-          <div className='toolbar1'>
+          <div className='toolbar'>
             <ul >
               <li><a href='#'>Read</a></li>
               <li><a href='#'>View source</a></li>
