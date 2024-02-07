@@ -78,9 +78,11 @@ function WikipediaProject() {
         </div>
 
 
+
       </div>
       <section>
         <div className='main-Container'>
+          
           <div className='header'>
 
             <div className='title'>
@@ -112,7 +114,7 @@ function WikipediaProject() {
                 </ul>
               </div>
             </div>
-            <div><h1>Sachin Tendulkar</h1></div>
+            <div className='nameHeading'><h1>Sachin Tendulkar</h1></div>
             <div className='main-Context'>
 
               <input type='checkbox' id='check2'></input>
@@ -152,7 +154,7 @@ function WikipediaProject() {
             </div>
           </div>
           <hr></hr>
-          <div className='toolbar'>
+          <div className='toolbar1'>
             <ul >
               <li><a href='#'>Read</a></li>
               <li><a href='#'>View source</a></li>
@@ -1048,7 +1050,7 @@ function WikipediaProject() {
           <p className='para'>The 2023 film Sachin: The Ultimate Winner depicts a child called Sachin who is inspired by Tendulkar, his hero and namesake, to return to cricket after becoming severely injured.[474]</p>
           <h1 className='h1'>Notes  </h1>
           <hr className='hr'></hr>
-          <div>
+          <div className='list'>
             <ol type='1'>
               <li> Craig White, although born in Yorkshire was the first player to be signed as an overseas player by Yorkshire. He had to be listed as an overseas player as he had already played for Victoria in Australia.</li>
               <li> Belinda Clark of the Australian women's cricket team was the first cricketer (of any gender) to score 200 or more in an ODI match. She scored 229* in a 1997 Women's Cricket World Cup match against Denmark</li>
@@ -1056,13 +1058,13 @@ function WikipediaProject() {
           </div>
           <h1 className='h1'>References </h1>
           <hr className='hr'></hr>
-          <div>
+          <div className='list'>
             <ol type='1'>
               <li> "Sachin Tendulkar: How the Boy Wonder became Master Blaster". NDTV. 6 November 2013. Archived from the original on 16 November 2013. Retrieved 17 November 2013.</li>
               <li> Gupta, Gaura (13 November 2013). "Top guns salute Master Blaster Sachin Tendulkar". The Times of India. Archived from the original on 18 November 2013. Retrieved 17 November 2013.</li>
               <li> "THROWBACK: When Sachin Tendulkar captained East Bengal in P. Sen Trophy!". BADGEB.com. Archived from the original on 25 April 2020. Retrieved 25 April 2020.</li>
               <li> *"Sachin Tendulkar is greatest cricketer in history – Brian Lara". BBC Sport. 12 November 2013. Archived from the original on 16 November 2013. Retrieved 19 November 2013.
-                <div>
+                <div className='list'>
                   <ul>
                     <li>"Sachin Tendulkar greatest batsman to have played cricket: Dennis Lillee". The Times of India. 26 June 2012. Retrieved 5 December 2017.</li>
                     <li>"'Why Sachin Tendulkar is the greatest' by Michael Vaughan". The Daily Telegraph. Archived from the original on 11 November 2014. Retrieved 5 December 2017.</li>
@@ -1080,13 +1082,12 @@ function WikipediaProject() {
           <hr className='hr'></hr>
           <div className='bottom'>
             <div className='border-img2'>
-              <div>
+            
                 <h4 className='align'>Sachin Tendulkar</h4>
                 <p className='align'>at Wikipedia's sister projects</p>
                 <hr className='hr1'></hr>
 
-              </div>
-              <div className='data'>
+           
                 <ul >
                   <li>Definitions from Wiktionary</li>
                   <li>Media from Commons</li>
@@ -1095,10 +1096,10 @@ function WikipediaProject() {
                   <li>Texts from Wikisource</li>
                   <li>Data from Wikidata</li>
                 </ul>
-              </div>
+             
 
             </div>
-            <div className='bottom-links'>
+            
               <ul>
                 <li><a href='#'>Sachin Tendulkar on Facebook</a></li>
                 <li><a href='#'>Sachin Tendulkar's channel on YouTube</a></li>
@@ -1106,13 +1107,12 @@ function WikipediaProject() {
                 <li><a href='#'>Sachin Tendulkar at Wisden India</a></li>
 
               </ul>
-            </div>
+          
 
 
           </div>
           <div className='line-Bar'>
             <ul>
-              <li>Portals:</li>
               <li> Biography</li>
               <li> India</li>
               <li>Cricket</li>

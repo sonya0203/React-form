@@ -1,10 +1,15 @@
 * {
   margin: 0px;
+  
+}
+body {
+  overflow-x: hidden;
 }
 .Container {
   font-family: sans-serif;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 .navBar {
   width: 100%;
@@ -47,9 +52,8 @@
 }
 
 .navMiddle {
-  width: 500px;
+ 
   display: flex;
-justify-content: space-between;
   align-items: center;
   border: 3px solid rgb(236, 230, 230);
   height: 30px;
@@ -58,7 +62,6 @@ justify-content: space-between;
 
 .input {
   height: 20px;
-  flex:1;
   border: none;
   outline: none;
   text-align: start;
@@ -77,18 +80,12 @@ justify-content: space-between;
   width: 0px;
   visibility: hidden;
 }
-.navLeft {
- 
-  margin-left: auto;
- 
-}
 .left-Links  {
 margin: 10px;
-text-decoration: none;
-
 }
 .left-Links a{
 padding:0  5px;
+text-decoration: none;
 }
 .sideBar {
   display: flex;
@@ -132,18 +129,19 @@ label #btn {
   font-size: 0.875rem;
   line-height: 1.5714285;
   padding: 0 30px;
+  
 }
 
 .header {
-  display: grid;
-  grid-template-columns: auto 1fr 1fr;
+  display: flex;
   text-align: center;
   margin-top: 30px;
 }
-.main-Content {
+.nameHeading {
   display: flex;
+  flex-grow: 1;
 }
-.header h1 {
+.nameHeading h1 {
   margin-left: 0px;
   text-align: start;
 }
@@ -230,9 +228,7 @@ visibility: hidden;
 .toolbar {
   display: block;
 }
-/* .toolbar ul:last-child {
-  margin-left: auto;
-} */
+
 .toolbar ul li a:hover {
   text-decoration: underline;
 }
@@ -442,17 +438,24 @@ visibility: hidden;
  width: 200px;
 }
 
-.sub-conatainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.sub-conatainer
+{
+  height: 200px;
+  width: auto;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 608px;
+  overflow: hidden;
 }
 .text-Table4 {
   border: 2px solid rgb(211, 211, 211);
+  overflow: hidden;
 }
 .SachinGround2 {
-  width: 596px;
+  height: 170px;
+  width: 605px;
+
 }
 .img-SachinGround{
   font-size:10px;
@@ -555,39 +558,86 @@ visibility: hidden;
   align-items: center;
   margin: 0px;
 }
+.list ol{
+  padding: 10px;
+}
+.list ul{
+  padding: 0px;
+}
+.bottom{
+  height: 300px;
+}
+.bottom ul{
+  padding: 0px;
+}
 .border-img2 {
+  float: right;
   border: 2px solid gray;
   background-color: rgb(245, 245, 245);
   margin-left: auto;
   margin-top: 5px;
-  float: right;
+  margin-bottom: 5px;
+  margin-right: 5px;
+
+}
+.border-img2 ul{
+padding: 0px;
 }
 
-.data ul {
-  text-align: left;
+.border-img2 ul {
+  padding-left: 10px;
   list-style-type: none;
   height: 200px;
   width: 200px;
   line-height: 30px;
-  margin-right: 20px;
+ 
+  margin-right: auto;
 }
+
 
 .bottom-links a {
   text-decoration: none;
   font-size: 17px;
 }
-.bottom{
-  height: 270px;
+.bottom-links ul{
+  list-style-type: none;
+}
+/* .line-Bar{
+  margin: 20px 0;
+  display: flex;
+  border: 1px solid gray;
+  justify-content: center;
 }
 .line-Bar ul {
   display: flex;
   list-style-type: none;
+  
+
+}
+.line-Bar li {
+ 
+
+} */.line-Bar{
+  display: flex;
+  padding: 0 2em;
+  clear: both;
+  margin: 1em auto 0;
   border: 1px solid gray;
-  padding: 0 200px;
+  justify-content: center;
+}
+
+
+.line-Bar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
 }
 .line-Bar li {
   margin: 0;
-  padding: 10px 35px;
+ 
 }
 
 @media (max-width: 1000px){
@@ -635,4 +685,20 @@ margin-left: 50px;
     display: none;
 
   }
+}
+@media (max-width:353px){
+  .border-img2{
+    float: none;
+
+  }
+  .line-Bar{
+    margin-top: 70px;
+   
+  }
+  .line-Bar ul{
+    gap: 5px;
+  };
+}
+@media (max-width:277px){
+ 
 }
