@@ -1,10 +1,9 @@
 import React from 'react'
+import AllRouting from './AllRouting'
 
-import WikipediaProject from './WikipediaProject/WikipediaProject' 
 function App() {
   return (
-< WikipediaProject/>
-    )
+<AllRouting/> )
 }
 
 export default App

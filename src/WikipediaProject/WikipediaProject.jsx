@@ -15,7 +15,7 @@ import SachinGround9 from "./images/SachinGround9.jpg"
 import SachinGround10 from "./images/SachinGround10.jpg"
 import Graph from "./images/Graph.png"
 import Sachin1 from "./images/Sachin1.jpg"
-
+import WikiComp from './WikiComp';
 
 
 function WikipediaProject() {
@@ -50,14 +50,10 @@ function WikipediaProject() {
             <li><a href='#'>Recent changes</a></li>
             <li><a href='#'>Upload files</a></li>
             <li>Languages</li>
-
           </div>
-
           <ul>
             <li><img src="https://en.wikipedia.org/static/images/icons/wikipedia.png" className='logo' alt="logo" /></li>
-
-            <div className='links'><li> <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg
-                           " alt="" className='logo1' /></li>
+            <div className='links'><li> <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt="" className='logo1' /></li>
               <li><img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en.svg" alt="" className='logo2' /></li>
             </div>
           </ul>
@@ -68,7 +64,7 @@ function WikipediaProject() {
           <input type='text' placeholder='Search Wikipedia' className='input'></input>
           <label className='button-Icon'>Search</label>
           </div>
-
+         
         
         <div className='navLeft'>
           <div className='left-Links'>
@@ -155,13 +151,13 @@ function WikipediaProject() {
           </div>
           <hr></hr>
           <div className='toolbar1'>
-            <ul >
-              <li><a href='#'>Read</a></li>
-              <li><a href='#'>View source</a></li>
-              <li><a href='#'>View history</a></li>
-              <li><a href='#'>tools</a></li>
-            </ul>
-          </div>
+    <ul >
+      <li><a href='#'>Read</a></li>
+      <li><a href='#'>View source</a></li>
+      <li><a href='#'>View history</a></li>
+      <li><a href='#'>tools</a></li>
+    </ul>
+    </div> 
           <div className='toolbar'>
             <ul>
               <li><a href='#' >Article </a></li>
@@ -175,8 +171,6 @@ function WikipediaProject() {
             <p>From Wikipedia, the free encyclopedia</p>
           </div>
           <div>"Tendulkar" redirects here. For other people with the same surname, see Tendulkar (surname).</div>
-
-
           <table className='table'>
             <caption><div className='name'>Sachin Tendulkar</div></caption>
             <tbody className='border-Img'>
@@ -527,6 +521,7 @@ function WikipediaProject() {
           <p className='p'>Rise through the ranks</p>
           <p className='p1'>1994–1996: ODI matches</p>
           <p className='para'>Tendulkar opened the batting at Auckland against New Zealand in 1994, making 82 runs off 49 balls.[83] He scored his first ODI century on 9 September 1994 against Australia in Sri Lanka at Colombo.[84][85] He competed in 78 ODIs before scoring his first century.[citation needed]</p>
+       
           <figure className='figure-left'>
             <img src={SachinGround} className='SachinGround'></img>
             <figcaption><p className='img-SachinGround'>Tendulkar waits at the bowler's end.</p> </figcaption>

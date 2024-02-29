@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CustomDialog from "./Components/CustomDialog/CustomDialog";
+import CustomDialog from "./CustomDialog";
 
 
 function Fetch() {

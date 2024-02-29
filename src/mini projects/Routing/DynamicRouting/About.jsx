@@ -10,7 +10,6 @@ function About() {
     <div><Link to="/users/ganya" >Ganya</Link></div>
     <div><Link to="/users/sam" >Sam</Link></div>
     <div><Link to="/users/nikita" >Nikita</Link></div>
-    <div><Link to="/users/kalika" >Kalika</Link></div>
 
     </>
   )
