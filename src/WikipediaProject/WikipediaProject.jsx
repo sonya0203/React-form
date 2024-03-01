@@ -15,7 +15,6 @@ import SachinGround9 from "./images/SachinGround9.jpg"
 import SachinGround10 from "./images/SachinGround10.jpg"
 import Graph from "./images/Graph.png"
 import Sachin1 from "./images/Sachin1.jpg"
-import WikiComp from './WikiComp';
 
 
 function WikipediaProject() {
@@ -63,9 +62,9 @@ function WikipediaProject() {
           <i className='search-logo'>&#128269;</i>
           <input type='text' placeholder='Search Wikipedia' className='input'></input>
           <label className='button-Icon'>Search</label>
-          </div>
-         
-        
+        </div>
+
+
         <div className='navLeft'>
           <div className='left-Links'>
             <a href='#'>Create account</a>
@@ -78,7 +77,7 @@ function WikipediaProject() {
       </div>
       <section>
         <div className='main-Container'>
-          
+
           <div className='header'>
 
             <div className='title'>
@@ -151,20 +150,20 @@ function WikipediaProject() {
           </div>
           <hr></hr>
           <div className='toolbar1'>
-    <ul >
-      <li><a href='#'>Read</a></li>
-      <li><a href='#'>View source</a></li>
-      <li><a href='#'>View history</a></li>
-      <li><a href='#'>tools</a></li>
-    </ul>
-    </div> 
+            <ul >
+              <li><a href='#'>Read</a></li>
+              <li><a href='#'>View source</a></li>
+              <li><a href='#'>View history</a></li>
+              <li><a href='#'>tools</a></li>
+            </ul>
+          </div>
           <div className='toolbar'>
             <ul>
               <li><a href='#' >Article </a></li>
               <li> <a href='#'>Talk</a></li>
             </ul>
-            </div>
-          
+          </div>
+
           <hr></hr>
 
           <div className='information'>
@@ -521,14 +520,14 @@ function WikipediaProject() {
           <p className='p'>Rise through the ranks</p>
           <p className='p1'>1994–1996: ODI matches</p>
           <p className='para'>Tendulkar opened the batting at Auckland against New Zealand in 1994, making 82 runs off 49 balls.[83] He scored his first ODI century on 9 September 1994 against Australia in Sri Lanka at Colombo.[84][85] He competed in 78 ODIs before scoring his first century.[citation needed]</p>
-       
+
           <figure className='figure-left'>
             <img src={SachinGround} className='SachinGround'></img>
             <figcaption><p className='img-SachinGround'>Tendulkar waits at the bowler's end.</p> </figcaption>
           </figure>
           <p className='text-Side'>Tendulkar's rise continued when he was the leading run scorer at the 1996 World Cup, scoring two centuries.[86] He was the only Indian batsman to perform well in the semi-final against Sri Lanka.[citation needed] Tendulkar fell amid a batting collapse[citation needed] and the match referee, Clive Lloyd, awarded Sri Lanka the match after the crowd began rioting and throwing litter onto the field.[87]</p>
           <p className='text-Side'>After the World Cup, in the same year against Pakistan at Sharjah, Indian captain Mohammed Azharuddin was going through a lean patch. Tendulkar and Navjot Singh Sidhu both made centuries to set a then record partnership for the second wicket. After getting out, Tendulkar found Azharuddin in two minds about whether he should bat.[citation needed] Tendulkar convinced Azharuddin to bat and Azharuddin subsequently unleashed 24 runs off one over.[88] India went on to win that match. It enabled India to post a score in excess of 300 runs for the first time in an ODI.[89]</p>
-          
+
 
           <p className='p1'>1998: Australian competition</p>
           <p className='para'>Tendulkar scored 143 (131) runs in Sharjah against the Australian team in the 1998 Coca-Cola cup, including 5 sixes in an innings against Shane Warne, Damien Fleming and Michael Kasprowicz. The inning is known as the "Desert Storm" because it was interrupted by a sand storm. In 2020, a poll from the ICC declared it Tendulkar's best ODI innings.[90]</p>
@@ -918,7 +917,7 @@ function WikipediaProject() {
             </tbody>
           </table>
           <p className='p3'>Further information: List of international cricket centuries by Sachin Tendulkar</p>
-       
+
           <p className='para'>Tendulkar holds the record of the highest number of centuries in Tests (51) and stands second in the highest number of centuries in ODIs (49) behind Virat Kohli. He has the most number of centuries when Tests and ODIs combined (100). He is the only player to have scored 50 centuries in Test cricket,[383] and was the first to score 50 centuries in all international cricket combined.[384]</p>
           <p className='para'>In the fourth Test match of the 2008–09 Border-Gavaskar Trophy against Australia on 6 November 2008, Tendulkar surpassed Australia's Allan Border to become the player to cross the 50-run mark the most times in Test cricket history,[385] and also the second ever player to score 11 Test centuries against Australia, tying Jack Hobbs, who had set the record more than 70 years prior.[386] After his century against England during group stages of 2011 Cricket World Cup, he became the player to hit most centuries in Cricket World Cups with six centuries, and the first player to score 2000 runs in World Cup cricket.[387][388] On 16 March 2012, Tendulkar scored his 100th international hundred against Bangladesh during the Asia Cup 2012.[389]</p>
 
@@ -1077,32 +1076,32 @@ function WikipediaProject() {
           <hr className='hr'></hr>
           <div className='bottom'>
             <div className='border-img2'>
-            
-                <h4 className='align'>Sachin Tendulkar</h4>
-                <p className='align'>at Wikipedia's sister projects</p>
-                <hr className='hr1'></hr>
 
-           
-                <ul >
-                  <li>Definitions from Wiktionary</li>
-                  <li>Media from Commons</li>
-                  <li>News from Wikinews</li>
-                  <li>Quotations from Wikiquote</li>
-                  <li>Texts from Wikisource</li>
-                  <li>Data from Wikidata</li>
-                </ul>
-             
+              <h4 className='align'>Sachin Tendulkar</h4>
+              <p className='align'>at Wikipedia's sister projects</p>
+              <hr className='hr1'></hr>
+
+
+              <ul >
+                <li>Definitions from Wiktionary</li>
+                <li>Media from Commons</li>
+                <li>News from Wikinews</li>
+                <li>Quotations from Wikiquote</li>
+                <li>Texts from Wikisource</li>
+                <li>Data from Wikidata</li>
+              </ul>
+
 
             </div>
-            
-              <ul>
-                <li><a href='#'>Sachin Tendulkar on Facebook</a></li>
-                <li><a href='#'>Sachin Tendulkar's channel on YouTube</a></li>
-                <li><a href='#'>Sachin Tendulkar at ESPNcricinfo</a></li>
-                <li><a href='#'>Sachin Tendulkar at Wisden India</a></li>
 
-              </ul>
-          
+            <ul>
+              <li><a href='#'>Sachin Tendulkar on Facebook</a></li>
+              <li><a href='#'>Sachin Tendulkar's channel on YouTube</a></li>
+              <li><a href='#'>Sachin Tendulkar at ESPNcricinfo</a></li>
+              <li><a href='#'>Sachin Tendulkar at Wisden India</a></li>
+
+            </ul>
+
 
 
           </div>
