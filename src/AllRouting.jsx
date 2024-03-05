@@ -9,6 +9,8 @@ import SetInterval from "./Components/SetTimeoutSetInterval/SetInterval"
 import Project1 from "./Components/project 1"
 import ArrayMethods from "./Components/Methods/ArrayMethods"
 import ObjectMethods from "./Components/Methods/ObjectMethods"
+import Props from './Components/Reusable/Props'
+import StringMethods from "./Components/Methods/StringMethods"
 
 function AllRouting() {
   return (
@@ -20,10 +22,13 @@ function AllRouting() {
           <Route path='/Form' element={<Home />} />
           <Route path='/LocalStorage' element={<LocalStorage />} />
           <Route path='/Fetch' element={<Fetch />} />
+          <Route path='/Props' element={<Props />} />
+
           <Route path='/SetInterval' element={<SetInterval />} />
           <Route path='/Project1' element={<Project1 />} />
           <Route path='/ArrayMethods' element={<ArrayMethods />} />
           <Route path='/ObjectMethods' element={<ObjectMethods />} />
+          <Route path='/StringMethods' element={<StringMethods />} />
 
         </Routes>
       </BrowserRouter>

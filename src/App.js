@@ -1,10 +1,8 @@
 import React from 'react'
 import AllRouting from './AllRouting'
-import Props from './Components/Reusable/Props'
 
 function App() {
   return (
-<Props/> )
-}
-
+<AllRouting/>
+)}
 export default App

@@ -1,10 +1,16 @@
-import React from 'react'
- import Data from "./Data"
+import React, { useEffect, useState } from 'react'
+import Data from "./Data"
 function Props() {
-    const MyName ="Sanjay Gawade";
-    const Names=["sanjay","sandesh","sagar","shubham"]
-  return (
-    <Data name={Names.filter((name)=>name==="sanjay" )} fullname={MyName}/>
+  const [bgcolor,setbgcolor]=useState('white')
+  function ChangeBack(color){
+setbgcolor(color)
+  }
+  useEffect(() => {
+    document.body.style.backgroundColor = bgcolor;
+});
+  return (<>
+<Data ChangeBack={ChangeBack}/>
+    </>
   )
 }
 
