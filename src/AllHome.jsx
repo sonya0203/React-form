@@ -13,6 +13,8 @@ function WikiHome() {
       <div> <Link to="/ArrayMethods">ArrayMethods</Link></div>
       <div> <Link to="/ObjectMethods">ObjectMethods</Link></div>
       <div> <Link to="/StringMethods">StringMethods</Link></div>
+      <div> <Link to="/ReusableInput">ReusableInput</Link></div>
+      <div> <Link to="/Main">Main</Link></div>
 
     </>
   )
