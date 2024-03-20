@@ -12,7 +12,9 @@ import ObjectMethods from "./Components/Methods/ObjectMethods"
 import Props from './Components/Reusable/BackColor/Props'
 import StringMethods from "./Components/Methods/StringMethods"
 import ReusableInput from "./Components/Reusable/InputForm/ReusableInput"
-import Main from "./Components/CustomHook/Main"
+import CustomHook from "./Components/CustomHook/CustomHook"
+import UseReducer from "./Components/useReduce/UseReducer"
+import Redux from './Components/Redux/Redux'
 
 function AllRouting() {
   return (
@@ -31,7 +33,9 @@ function AllRouting() {
           <Route path='/ObjectMethods' element={<ObjectMethods />} />
           <Route path='/StringMethods' element={<StringMethods />} />
           <Route path='/ReusableInput' element={<ReusableInput />} />
-          <Route path='/Main' element={<Main />} />
+          <Route path='/CustomHook' element={<CustomHook />} />
+          <Route path='/UseReducer' element={<UseReducer />} />
+          <Route path='/Redux' element={<Redux />} />
 
         </Routes>
       </BrowserRouter>

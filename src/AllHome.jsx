@@ -14,7 +14,9 @@ function WikiHome() {
       <div> <Link to="/ObjectMethods">ObjectMethods</Link></div>
       <div> <Link to="/StringMethods">StringMethods</Link></div>
       <div> <Link to="/ReusableInput">ReusableInput</Link></div>
-      <div> <Link to="/Main">Main</Link></div>
+      <div> <Link to="/CustomHook">CustomHook</Link></div>
+      <div> <Link to="/UseReducer">UseReducer</Link></div>
+      <div> <Link to="/Redux">Redux</Link></div>
 
     </>
   )

@@ -1,7 +1,7 @@
 import Counter1 from "./Counter1"
 import Counter2 from "./Counter2"
 
-function Main() {
+function CustomHook() {
 
     return (<>
         <Counter1 />
@@ -10,4 +10,4 @@ function Main() {
     )
 }
 
-export default Main
+export default CustomHook
