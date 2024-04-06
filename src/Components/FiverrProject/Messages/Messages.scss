@@ -1,0 +1,42 @@
+.Messages {
+    display: flex;
+    justify-content: center;
+    color: #555;
+  
+    .containerMygigs {
+      width: 1400px;
+      padding: 50px 0px;
+  
+      .titleMygigs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+      }
+      table {
+        width: 100%;
+        
+        tr {
+          height: 60px;
+          th {
+            text-align: left;
+          }
+          &.Active {
+              background-color: #1dbf730f;
+            }
+        }
+        
+      }
+    
+    }
+  }
+  .btnmessage{
+    background-color: rgb(56, 198, 56);
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+  }
+  .MsgLink{
+    text-decoration: none;
+    color: rgb(72, 72, 72);
+  }

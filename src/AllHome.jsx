@@ -17,6 +17,14 @@ function WikiHome() {
       <div> <Link to="/CustomHook">CustomHook</Link></div>
       <div> <Link to="/UseReducer">UseReducer</Link></div>
       <div> <Link to="/Redux">Redux</Link></div>
+      <div> <Link to="/ReduxToolkit">ReduxToolkit</Link></div>
+      <div> <Link to="/ToolkitCounter">ToolkitCounter</Link></div>
+      <div> <Link to="/FiverrProject">FiverrProject</Link></div>
+      <div> <Link to="/HomeContext">HomeContext</Link></div>
+      <div> <Link to="/HooksApp">HooksApp</Link></div>
+      <div> <Link to="/Main">Main</Link></div>
+
+
 
     </>
   )

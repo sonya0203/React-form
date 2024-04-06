@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Form from './Form'
+import ReusableForm from './ReusableForm'
 function ReusableInput() {
 
   const [Value, setValue] = useState(
@@ -14,37 +14,30 @@ function ReusableInput() {
       pinCode: "",
       address: ""
     })
+    const [show,setShow]=useState(false)
 
   const [Errors, setErrors] = useState([{}])
   const [Record,setRecord]=useState([])
   useEffect(() => {
     const newRecord = { ...Value, id: new Date().getTime().toString() };
-    setRecord([...Record,newRecord]);
+    setRecord([newRecord]);
   }, [Value]);
 
-  const HandleInput = (e) => {   
+   const HandleInput = (e) => {   
     const name = e.target.name;
     const value = e.target.value;
     setValue({ ...Value, [name]: value });
+    
   };
+  
   const HandleSubmit = (e) => {
     e.preventDefault();
     setErrors(Validate(Value))
     if (Object.keys(Errors).length === 0) {
-      setValue(
-        {
-          firstName: "",
-          lastName: "",
-          userName: "",
-          password: "",
-          confirmPassword: "",
-          email: "",
-          phoneNo: "",
-          pinCode: "",
-          address: ""
-        })
+      setShow(true)
+      
     }
-
+    
   }
 
   const Validate = (Value) => {
@@ -73,7 +66,7 @@ function ReusableInput() {
   return (
     <>
 
-      <Form HandleInput={HandleInput} Value={Value} HandleSubmit={HandleSubmit} Errors={Errors} Record={Record} />
+      <ReusableForm HandleInput={HandleInput} Value={Value} HandleSubmit={HandleSubmit} Errors={Errors} Record={Record} show={show} />
     </>
   )
 }

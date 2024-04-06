@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import { Provider } from "react-redux";
-import { store } from "./Components/Redux/store";
+import storeReduxToolkit from "./Components/ReduxToolkit/Store";
 
 function FavoriteColor() {
   return (
-    <Provider store={store}>
+    <Provider store={storeReduxToolkit}>
       <App />
     </Provider>
   );

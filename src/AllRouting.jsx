@@ -15,7 +15,13 @@ import ReusableInput from "./Components/Reusable/InputForm/ReusableInput"
 import CustomHook from "./Components/CustomHook/CustomHook"
 import UseReducer from "./Components/useReduce/UseReducer"
 import Redux from './Components/Redux/Redux'
+import ReduxToolkit from './Components/ReduxToolkit/ReduxToolkit'
+import ToolkitCounter from "./Components/ToolkitCounter/ToolkitCounter"
+import FiverrProject from "./Components/FiverrProject/FiverrProject"
+import HomeContext from './Components/Context/HomeContext'
+import HooksApp from './Components/UseHooks/HooksApp'
 
+import Main from './Components/Context/Context1/Main'
 function AllRouting() {
   return (
     <>
@@ -36,6 +42,14 @@ function AllRouting() {
           <Route path='/CustomHook' element={<CustomHook />} />
           <Route path='/UseReducer' element={<UseReducer />} />
           <Route path='/Redux' element={<Redux />} />
+          <Route path='/ReduxToolkit' element={<ReduxToolkit />} />
+          <Route path='/ToolkitCounter' element={<ToolkitCounter />} />
+          <Route path='/FiverrProject' element={<FiverrProject />} />
+          <Route path='/HomeContext' element={<HomeContext />} />
+          <Route path='/HooksApp' element={<HooksApp />} />
+          <Route path='/Main' element={<Main />} />
+
+
 
         </Routes>
       </BrowserRouter>

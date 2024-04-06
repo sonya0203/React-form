@@ -1,0 +1,53 @@
+.infoFeatures {
+  background-color: #eff6f3;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+   
+  &.dark{
+    background-color: rgb(16, 16, 58);
+    color: white;
+  }
+  
+}
+.containerHome {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  padding: 0px 230px;
+  gap: 90px;
+  line-height: 20px;
+}
+.check {
+  width: 20px;
+  font-weight: bold;
+  color: white;
+}
+.homeVideo {
+  width: 500px;
+}
+.homeItem {
+  display: flex;
+  flex-direction: column;
+}
+.titleHome {
+  font-weight: bold;
+}
+
+
+.adjust {
+  padding: 0px;
+  margin: 0px;
+}
+.homeButton{
+  width:max-content;
+  border-radius: 5px;
+  background-color: rgb(100, 182, 100);
+  border: rgb(100, 182, 100) ;
+  color: white;
+  cursor: pointer;
+  margin: 15px 0px;
+}
+.homeItems{
+  line-height: 30px;
+}
