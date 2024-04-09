@@ -9,6 +9,9 @@ function ProductCard() {
             <div key={users.id}> 
                 <li> name -:{users.username}</li>
                 <li> mail -:{users.email}</li>
+                <li>password -:{users.password}</li>
+                <li>Address -:{users.address.city}</li>
+             <hr />
             </div>
         ))}
         </>

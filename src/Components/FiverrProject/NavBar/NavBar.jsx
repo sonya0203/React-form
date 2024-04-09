@@ -38,7 +38,7 @@ function NavBar() {
                     <span>English</span>
                     <span>Sign In</span>
                     {!currentUser?.isSeller && <span>Become a Seller</span>}
-                    {!currentUser && <button className='button'>Join</button>}
+                    {!currentUser && <button className='buttonNav'>Join</button>}
                     {currentUser && (
                         <div className='user' onClick={() => { setOpen(!open) }}>
                             <img className='imgNav' src={logo}></img>

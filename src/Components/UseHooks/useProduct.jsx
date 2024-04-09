@@ -10,7 +10,8 @@ function useProduct() {
     const getProduct = async () => {
         const response = await axios.get('https://fakestoreapi.com/users')
         const data = (response.data)
-        setUsers(data)
+        setUsers(data) 
+         console.log(data)
 
     }
     return[ users];

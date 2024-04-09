@@ -1,0 +1,52 @@
+
+
+.kidCource {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  gap: 20px;
+
+.MuiCardContent-root{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    button{
+        color: white;
+        background-color: black;
+      
+
+        &:hover{
+           margin: 2px 2px;
+            -o-transition-delay: 0.5s ;
+        }
+    }
+    .logo{
+        padding: 10px;
+    }
+    .detail{
+        display: flex;
+        flex-direction: column;
+      gap: 5px;
+        padding: 10px;
+    }
+}
+  .top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .MuiCard-root{
+    width: 300px;
+    height: 170px;
+    border-radius: 15px;
+
+
+    
+  }
+}

@@ -1,9 +1,10 @@
 import React from 'react'
-import AllRouting from './AllRouting'
+import Vedantu from './Components/Vedantu/Vedantu'
+import './App.css'
 function App(){
   return (
 
-<AllRouting/>
+<Vedantu/>
 
 
 )}

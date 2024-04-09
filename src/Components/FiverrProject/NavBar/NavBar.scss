@@ -6,19 +6,17 @@
   background-color: rgb(48, 86, 68);
   font-family: "Mukta", sans-serif;
   transform: 0.5s all ease;
-position: sticky;
-top: 0px;
-z-index: 999;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
 }
-.Links{
+.Links {
   text-decoration: none;
   color: inherit;
 }
- .active{
-    background-color: white;
-    color: black;
-   
-
+.active {
+  background-color: white;
+  color: black;
 }
 .container {
   display: flex;
@@ -43,17 +41,17 @@ z-index: 999;
   font-weight: 15px;
   gap: 10px;
 }
-.user{
+.user {
   display: flex;
   align-items: center;
   gap: 10px;
   cursor: pointer;
 }
-.imgNav{
+.imgNav {
   width: 30px;
   border-radius: 5px;
 }
-.options{
+.options {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -67,15 +65,16 @@ z-index: 999;
   background-color: aliceblue;
 }
 
-.button {
+.buttonNav {
   background-color: transparent;
   border-radius: 3px;
   border: 1px solid white;
   padding: 5px 15px;
   cursor: pointer;
   color: white;
+  border: none;
 }
-button:hover {
+.buttonNav:hover {
   background-color: rgb(48, 131, 48);
 }
 hr {

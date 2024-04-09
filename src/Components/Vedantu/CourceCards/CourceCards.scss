@@ -1,0 +1,54 @@
+.exploreCources{
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    gap: 10px;
+    padding-top: 20px;
+    span{
+        padding-top: 10px;
+    }
+}
+
+.courceContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .MuiCard-root {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+.data{
+    padding-left: 20px;
+}
+
+
+    .explore {
+      padding: 25px 25px;
+    }
+    .explore1 {
+      padding: 120px 25px;
+    }
+    .explore2 {
+      padding: 25px;
+    }
+  }
+  .jee {
+    display: flex;
+  }
+  .MuiButton-root {
+    border: 0.5px solid rgb(224, 224, 224);
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: orangered;
+
+    &:hover {
+      background-color: orangered;
+      color: white;
+    }
+  }
+}
