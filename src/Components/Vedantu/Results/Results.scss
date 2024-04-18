@@ -66,13 +66,18 @@
     }
   }
 }
+.result{
 .slider{
   width: 100%;
-
+display: none;
   .carousel .carousel-next {
     right: -20px;
   }
   .carousel .carousel-prev {
     left: -20px;
   }
+}
+.toggle{
+  display: block;
+}
 }
