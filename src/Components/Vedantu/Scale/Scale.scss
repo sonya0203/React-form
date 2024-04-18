@@ -1,0 +1,53 @@
+.scaleContainer {
+  position: relative;
+  padding-bottom: 150px;
+  .scale {
+    width: 70%;
+    margin: auto;
+    padding: 40px 0px;
+    display: flex;
+
+    
+    .left {
+
+        .topleft {
+            display: flex;
+            flex-direction: column;
+            padding: 30px 0px;
+            letter-spacing: 1px;
+            img {
+             width: 100px;
+            }
+            h1 {
+              span {
+                color: rgb(255, 81, 18);
+              }
+            }
+            p {
+              color: rgb(78, 78, 78);
+            }
+          }
+
+    
+      .measuring {
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 35px;
+        .amount {
+          padding: 20px 0px;
+          width: 50%;
+        }
+      }
+
+     
+    }
+    .right{
+        position: absolute;
+        top: 150px;
+        right: 180px;
+        img{
+            width: 650px;
+        }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.resultContainer {
+  background-color: rgb(244, 244, 255);
+  padding: 40px 0px;
+  height: 700px;
+}
+.result {
+  width: 70%;
+  margin: auto;
+  height: 500px;
+  .resultTop {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px 0px;
+    button {
+      padding: 10px 20px;
+      background-color: rgba(255, 83, 21, 0.906);
+      color: white;
+      border-radius: 10px;
+      border: 0.5px lightgray;
+      font-size: 15px;
+      cursor: pointer;
+
+      &:hover {
+        margin-top: 3px;
+        margin-left: 1px;
+        transition: 0.3s;
+      }
+    }
+
+    h1 {
+      span {
+        color: rgb(255, 85, 23);
+      }
+    }
+    p {
+      width: 450px;
+      word-spacing: 3px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .resultBtn {
+      display: flex;
+      gap: 30px;
+    }
+  }
+  .middle {
+    display: flex;
+    position: relative;
+    .btns {
+      display: flex;
+      gap: 20px;
+
+      button {
+        padding: 6px 20px;
+        background-color: white;
+        border-radius: 5px;
+        border: 0.5px solid lightgray;
+      }
+    }
+    img {
+      top: -150px;
+      position: absolute;
+      right: 50px;
+      width: 300px;
+    }
+  }
+}
+.slider{
+  width: 100%;
+
+  .carousel .carousel-next {
+    right: -20px;
+  }
+  .carousel .carousel-prev {
+    left: -20px;
+  }
+}

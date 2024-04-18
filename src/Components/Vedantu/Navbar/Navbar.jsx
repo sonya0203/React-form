@@ -19,7 +19,10 @@ function Navbar() {
         <Link to='/'>
           <img src="https://tse2.mm.bing.net/th?id=OIP.LrRoZa1MexHYUxXd0hdW_wHaFT&pid=Api&P=0&h=180" alt="" className='vedantu' />
         </Link>
+        <div className="navItemsContainer">
         <div className="features" >
+         
+          <div className="navItems">
           <div className='cource' onMouseOver={() => { setOpen(true) }}
             onMouseOut={() => { setOpen(false) }}>
               <span >Cource</span>
@@ -27,7 +30,7 @@ function Navbar() {
       
             <img src="https://tse1.mm.bing.net/th?id=OIP.wE6J0L44koFeJg0DVq0J4AHaHa&pid=Api&P=0&h=180" alt="" />
           </div>
-
+          </div>
           {open && (<div className="dropdown" onMouseOver={() => { setOpen(true) }}
             onMouseOut={() => { setOpen(false) }}>
             <div className="left">
@@ -730,6 +733,9 @@ function Navbar() {
          
         </div>
         </div>
+
+        </div>
+        <div className="rightnav">
         <div className="helpline">
           <img src="https://tse4.mm.bing.net/th?id=OIP.D1wlmmSTSZFfAYAseLew5QAAAA&pid=Api&P=0&h=180" alt="" />
           <div className="number">
@@ -739,6 +745,7 @@ function Navbar() {
           </div>
         </div>
         <span><button>  Sign in</button></span>
+      </div>
       </div>
     </div>
 

@@ -1,0 +1,42 @@
+.study {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+ .spacing{
+    letter-spacing: -1;
+    padding: 10px 0px;
+ }
+  span{
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    &:hover{
+        color: orangered;
+cursor: pointer;
+    }
+}
+.head{
+    font-weight: bold;
+}
+  .material {
+    display: flex;
+    gap: 80px;
+    padding: 40px 0px;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 25px;
+
+ 
+  }
+ 
+}
+.downside{
+    p, h1{
+        padding: 10px 0px;
+    }
+}

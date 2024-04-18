@@ -1,0 +1,52 @@
+h1{
+  font-size: 30px;
+}
+.BridgeCourccContainer {
+  width: 70%;
+  margin: auto;
+  padding: 80px;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    align-items: center;
+    .left {
+      flex-wrap: wrap;
+      span {
+        color: rgb(255, 83, 20);
+      }
+
+      p {
+        font-size: 18px;
+        color: #888484;
+      }
+    }
+  }
+}
+.SliderContainer{
+padding: 20px 0px;
+
+ .carouselContainer{
+  .carousel-dots{
+    position: relative;
+  bottom: 0px;
+  }
+.carousel-initialized{
+.carousel-prev{
+  margin-top: 100px;
+  left: -40px;
+}
+.carousel-next{
+  right: -40px;
+  margin-top: 100px;
+}
+
+}
+}
+}
+.fire{
+  span{
+    color: rgb(255, 84, 22);
+  }
+}

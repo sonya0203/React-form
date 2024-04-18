@@ -1,11 +1,18 @@
+.CourceCards{
+display: flex;
+flex-direction: column;
+padding-top: 50px;
+padding-bottom: 20px;
+gap: 20px;
+}
 .exploreCources{
     display: flex;
     align-items: center;
     margin-left: 15%;
     gap: 10px;
-    padding-top: 20px;
+    
     span{
-        padding-top: 10px;
+        padding-top: 20px;
     }
 }
 
@@ -21,25 +28,33 @@
     width: 350px;
     height: 350px;
     border-radius: 20px;
+    display: flex;
+    position: relative;
+
+    img{
+      position: absolute;
+      width: auto;
+      height: 100%;
+      bottom: 0px;
+      right: 0px;
+    }
 .data{
     padding-left: 20px;
+    width: 70%;
 }
 
 
-    .explore {
-      padding: 25px 25px;
-    }
-    .explore1 {
-      padding: 120px 25px;
-    }
-    .explore2 {
-      padding: 25px;
-    }
+ 
   }
-  .jee {
-    display: flex;
-  }
-  .MuiButton-root {
+.cardButton{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+  gap: 10px;  
+  button{
     border: 0.5px solid rgb(224, 224, 224);
     height: 30px;
     border-radius: 5px;
@@ -51,4 +66,23 @@
       color: white;
     }
   }
+
+}
+.explore{
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+
+  button{
+    color: white;
+    padding: 0px;
+  
+  }
+}
+
+
+
+.MuiCardActions-root{
+  // padding: 0px;
+}
 }

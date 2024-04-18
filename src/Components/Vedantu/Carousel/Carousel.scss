@@ -1,0 +1,45 @@
+
+.carousel {
+    display: flex;
+    justify-content: center;
+
+   
+    .carouselContainer {
+      width: 100%;
+      position: relative;
+    }
+  
+    .carousel-initialized {
+      position: static;
+      border-radius: 20px;
+      
+    }
+  
+    .carousel-prev,
+    .carousel-next {
+      width: 50px;
+      height: 50px;
+      background-color: rgb(243, 243, 243);
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  
+    .carousel-prev {
+      left: -60px;
+    }
+    .carousel-next{
+      right: -60px;
+    }
+ 
+
+  }
+  .carousel-dots{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+  bottom: 30px;
+  z-index: 2;
+} 

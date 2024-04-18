@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  .left {
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+
+  .right{
+    display: flex;
+ 
+    justify-content: space-around;
+align-items: center;
+gap: 30px;
+    img{
+        width: 20px;
+    }
+  }
+}

@@ -1,10 +1,32 @@
-
-
-.kidCource {
+.courceKidsContainer{
   width: 70%;
-  display: flex;
   margin: auto;
-  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+
+  .children{
+    position: absolute;
+  width: 500px;
+  right: 220px;
+  top: 1250px;
+  }
+}
+.cource{
+
+  display: flex;
+  align-items: flex-start;
+  padding: 30px 0px;
+
+  span{
+    color: orangered;
+    
+  }
+}
+.kidCource {
+  
+  display: flex;
+ 
+  gap: 30px;
 
 .MuiCardContent-root{
     display: flex;
@@ -23,30 +45,41 @@
     }
     .logo{
         padding: 10px;
+        img{
+          width: 70px;
+        }
     }
     .detail{
         display: flex;
         flex-direction: column;
       gap: 5px;
-        padding: 10px;
+        // padding: 10px;
     }
 }
   .top {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
   .bottom {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
   .MuiCard-root{
     width: 300px;
     height: 170px;
     border-radius: 15px;
-
+z-index: 2;
 
     
   }
+}
+.premium{
+  display: flex;
+  padding: 50px 20px;
+  gap: 10px;
+ 
+
+  
 }

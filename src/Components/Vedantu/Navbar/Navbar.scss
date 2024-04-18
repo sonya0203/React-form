@@ -9,15 +9,28 @@
   padding: 0px;
   border: 0.5px solid rgb(227, 227, 227);
   position: sticky;
+
   .container {
     display: flex;
-    width: 85%;
+    width: 80%;
     margin: 0px auto;
     justify-content: space-around;
     align-items: center;
+    .rightnav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
     .vedantu {
       width: 170px;
       height: 70px;
+    }
+
+    .navItemsContainer {
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+      gap: 10px;
     }
     .color {
       text-decoration: none;
@@ -56,9 +69,11 @@
         width: 15px;
         height: 15px;
       }
+      .rightnav {
+        display: flex;
+      }
     }
     .features {
-    
       .cource {
         justify-content: center;
         display: flex;
@@ -93,11 +108,11 @@
         width: 60%;
         height: 600px;
         left: 80px;
-  
+        z-index: 1;
         border-radius: 5px;
-        
+
         background-color: rgb(254, 252, 252);
-        border: 0.5px solid rgb(244, 242, 242);
+        border: 0.1px solid rgb(244, 242, 242);
         cursor: pointer;
 
         &:focus {
@@ -109,9 +124,8 @@
           width: 35%;
           background-color: rgb(255, 245, 255);
           overflow-y: scroll;
-        
-      
-          border: 0.5px solid rgb(244, 242, 242);
+
+          border: 0.1px solid rgb(244, 242, 242);
           .kidsContainer {
             width: 90%;
             justify-content: center;
@@ -144,14 +158,13 @@
               font-weight: 100;
               // color: rgb(115, 114, 114);
               size: 10px;
-              span{
+              span {
                 color: rgb(123, 123, 123);
                 font-size: 15px;
               }
             }
           }
           .itemsKids {
-            
             display: flex;
             gap: 10px;
             align-items: center;
@@ -163,9 +176,9 @@
             .desc {
               font-weight: lighter;
               size: 15px;
-              span{
+              span {
                 color: rgb(115, 114, 114);
-font-size: 15px;
+                font-size: 15px;
               }
             }
             img {
@@ -178,7 +191,7 @@ font-size: 15px;
           }
         }
         .middle {
-          border: 0.5px solid rgb(244, 242, 242);
+          border: 0.1px solid rgb(244, 242, 242);
 
           overflow-y: scroll;
           width: 35%;
@@ -215,7 +228,7 @@ font-size: 15px;
 
         .right {
           overflow-y: scroll;
-          border: 0.5px solid rgb(244, 242, 242);
+          border: 0.1px solid rgb(244, 242, 242);
           width: 30%;
           .rightdropdown {
             display: flex;
@@ -224,7 +237,7 @@ font-size: 15px;
             &:hover {
               background-color: rgb(236, 235, 235);
             }
-            .logo{
+            .logo {
               padding: 10px;
               opacity: 0.5;
             }
@@ -377,7 +390,7 @@ font-size: 15px;
         align-items: center;
         justify-content: space-between;
 
-        img{
+        img {
           opacity: 0.5;
         }
         &:hover {
@@ -387,6 +400,8 @@ font-size: 15px;
           display: flex;
           flex-direction: column;
           position: absolute;
+          background-color: rgb(254, 252, 252);
+          border: 0.1px solid rgb(244, 242, 242);
 
           right: -302px;
           top: 0px;
@@ -408,7 +423,8 @@ font-size: 15px;
               position: absolute;
               top: 0px;
               right: -280px;
-              border: 0.3px solid rgb(215, 215, 215);
+              background-color: rgb(254, 252, 252);
+              border: 0.1px solid rgb(244, 242, 242);
               border-radius: 5px;
 
               span {
@@ -528,7 +544,21 @@ font-size: 15px;
     }
   }
 }
+// @media (max-width: 1302px) {
+//   .navItemsContainer{
+//     position: absolute;
+//     left: 0px;
+//     flex-direction: column;
+//     top: 100px;
+//     width: 400px;
+//     height: 400px;
+//     background-color: white;
+//     border: 0.5px solid lightgray;
+//     padding: 10px 20px;
 
-  
-  
- 
+//     .navItems{
+//       justify-content: space-between;
+//       width: 100%;
+//     }
+//   }
+// }

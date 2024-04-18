@@ -1,0 +1,66 @@
+.teachersContainer{
+   
+    padding: 60px 0px;
+}
+.teachers {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  span {
+    color: rgb(255, 85, 23);
+  }
+  p {
+    color: rgb(94, 94, 94);
+  }
+  .para {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+
+    justify-content: center;
+  }
+  .learnBtn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    .btn1 {
+      background-color: orangered;
+      color: white;
+      font-size: large;
+    }
+    .btn2 {
+      background-color: white;
+      color: orangered;
+      font-size: large;
+    }
+    button {
+      padding: 15px 70px;
+      max-width: 250px;
+      border: 0.5px solid lightgray;
+      border-radius: 5px;
+      cursor: pointer;
+
+      // &:hover{
+      //    background-color: aqua;
+      // }
+    }
+  }
+}
+.teachersTop {
+  display: flex;
+  border-radius: 20px;
+
+  .content {
+    max-width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    
+  }
+}
+

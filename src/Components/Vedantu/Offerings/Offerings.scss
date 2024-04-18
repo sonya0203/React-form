@@ -1,0 +1,25 @@
+.offeringContainer{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+
+    span{
+        color: rgb(255, 103, 48);
+    }
+.standards{
+  display: flex;  
+ justify-content: space-around;
+
+ button{
+    width: fit-content;
+    height: 35px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    font-weight: 500;
+    color: rgb(84, 84, 84);
+ }
+}
+}

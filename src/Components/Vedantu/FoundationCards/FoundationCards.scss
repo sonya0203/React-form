@@ -1,0 +1,44 @@
+.foundationContainer {
+  display: flex;
+  gap: 30px;
+  padding: 40px 5px;
+
+
+.MuiCard-root {
+  width: 180px;
+  height: 120px;
+  padding-left: 5px;
+  padding-top: 10px;
+ 
+  border-radius: 10px;
+ 
+  .MuiCardContent-root {
+    padding-left: 5px;
+  }
+
+  .MuiTypography-root {
+    margin: 0px;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    button {
+      font-size: 10px;
+      color: rgb(241, 117, 72);
+      font-weight: 700;
+    }
+    
+    }
+  }
+.rightArrow{
+   
+        width: 15px;
+        opacity: 0.2;
+        color: rgb(241, 117, 72);
+}
+
+}
+.MuiButton-root{
+padding: 0px;
+}

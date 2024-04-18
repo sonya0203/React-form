@@ -1,0 +1,13 @@
+
+
+.thirdImgContainer{
+   
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items:center   ;
+    img{
+        width: 500px;
+        border-radius: 20px;
+    }
+}

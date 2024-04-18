@@ -8,10 +8,18 @@ import './Kids.scss'
 
 
 export default function Kids() {
-    return (
+    return (<>
+    <div className="courceKidsContainer">
+        <div className="cource">
+            <h1>Courses for <span> kids</span></h1>
+
+        </div>
+        <div className="cardsImag">
         <div className="kidCource" >
+
+
             <div className="top">
-                <Card sx={{background:"rgb(248, 224, 193)" }}>
+                <Card sx={{ background: "rgb(248, 224, 193)" }}>
                     <CardContent>
                         <div className="logo">
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -19,7 +27,7 @@ export default function Kids() {
                             </Typography>
                         </div>
                         <div className="detail">
-                            <Typography sx={{ fontSize:"15px" }} color="text.secondary">
+                            <Typography sx={{ fontSize: "15px" }} color="text.secondary">
 
                                 Age 4 - 8
                             </Typography>
@@ -34,13 +42,13 @@ export default function Kids() {
                             </Typography>
 
                             <CardActions>
-                                <Button size="small">Explore</Button>
+                                <Button >Explore</Button>
                             </CardActions>
                         </div>
                     </CardContent>
                 </Card>
 
-                <Card sx={{background:" rgb(200, 199, 197)"}}>
+                <Card sx={{ background: " rgb(200, 199, 197)" }}>
                     <CardContent>
                         <div className="logo">
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -49,7 +57,7 @@ export default function Kids() {
                         </div>
 
                         <div className="detail">
-                            <Typography sx={{ fontSize:"15px" }} color="text.secondary">
+                            <Typography sx={{ fontSize: "15px" }} color="text.secondary">
                                 Class 1 - 2
                             </Typography>
 
@@ -63,7 +71,7 @@ export default function Kids() {
                             </Typography>
 
                             <CardActions>
-                                <Button size="small">Explore</Button>
+                                <Button >Explore</Button>
                             </CardActions>
                         </div>
                     </CardContent>
@@ -72,7 +80,7 @@ export default function Kids() {
 
 
             <div className="bottom">
-                <Card sx={{background:"rgb(208, 208, 255)"}}>
+                <Card sx={{ background: "rgb(208, 208, 255)" }}>
                     <CardContent>
                         <div className="logo">
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -81,7 +89,7 @@ export default function Kids() {
 
                         </div>
                         <div className="detail">
-                            <Typography sx={{ fontSize:"15px" }} color="text.secondary">
+                            <Typography sx={{ fontSize: "15px" }} color="text.secondary">
                                 Class 3 - 5
                             </Typography>
 
@@ -95,13 +103,13 @@ export default function Kids() {
                             </Typography>
 
                             <CardActions>
-                                <Button size="small">Explore</Button>
+                                <Button >Explore</Button>
                             </CardActions>
                         </div>
                     </CardContent>
                 </Card>
 
-                <Card sx={{background:"rgb(189, 230, 241)"}}>
+                <Card sx={{ background: "rgb(189, 230, 241)" }}>
                     <CardContent>
                         <div className="logo">
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -109,7 +117,7 @@ export default function Kids() {
                             </Typography>
                         </div>
                         <div className="detail">
-                            <Typography sx={{ fontSize:"15px" }} color="text.secondary">
+                            <Typography sx={{ fontSize: "15px" }} color="text.secondary">
                                 Class 1 - 8
                             </Typography>
 
@@ -123,7 +131,7 @@ export default function Kids() {
                             </Typography>
 
                             <CardActions>
-                                <Button size="small">Explore</Button>
+                                <Button >Explore</Button>
                             </CardActions>
                         </div>
                     </CardContent>
@@ -131,5 +139,16 @@ export default function Kids() {
             </div>
 
         </div>
-    );
+        <img className='children' src="https://www.vedantu.com/cdn/images/new-home-page/B2/super-kid.webp" alt="" />
+
+        </div>
+        <div className="premium">
+            <img src="https://vmkt.vedantu.com/vmkt/PROD/png/6a6a5a57-9061-417d-8132-b422d4395bf5-1699608141285-4102515828415223.png" alt="" />
+            <img src="https://vmkt.vedantu.com/vmkt/PROD/png/c721cc69-f9ca-4088-8506-b0724ece8ab8-1699608111682-4102515828415223.png" alt="" />
+
+        </div>
+
+
+        </div>
+    </>);
 }

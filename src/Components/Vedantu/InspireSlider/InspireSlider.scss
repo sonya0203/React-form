@@ -1,0 +1,46 @@
+.inspireSlider{
+
+
+.container{
+    width: 300px;
+    background-color: white;
+    border: 0.5px solid lightgray;
+    border-radius: 20px;
+    height: 200px;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  justify-content: space-between;
+margin: auto;
+p{
+    color: rgb(98, 98, 98);
+}
+
+    .bottom{
+
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        
+        img{
+            width: 50px;
+            border-radius: 50%;
+        }
+        button{
+            padding: 5px 10px;
+            background-color: rgb(255, 86, 24);
+            border-radius: 10px;
+            cursor: pointer;
+            border: none;
+            color: white;
+        }
+        .middle{
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+}
