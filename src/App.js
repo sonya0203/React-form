@@ -1,11 +1,12 @@
 import React from 'react'
-import Vedantu from './Components/Vedantu/Vedantu'
 import './App.css'
+import TodoListSanjay from './Components/TodoListSanjay/TodoListSanjay'
+import ToDoIst from './Components/ToDoIst/ToDoIst'
+
 function App(){
   return (
-
-<Vedantu/>
-
-
+<>
+<TodoListSanjay/>
+</>
 )}
 export default App

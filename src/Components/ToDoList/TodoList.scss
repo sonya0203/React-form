@@ -1,0 +1,107 @@
+.container {
+  width: 60%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  button{
+    cursor: pointer;
+  }
+  .top {
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    gap: 10px;
+  
+    span{
+        max-width: 600px;
+    overflow: hidden;
+      }
+      
+    .search {
+      input {
+        padding: 10px;
+        width: 300px;
+      }
+      button {
+        padding: 12px 20px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 3px;
+      }
+     
+    }
+    img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .openImg {
+      display: none;
+    }
+    .add {
+      input {
+        padding: 10px;
+        width: 300px;
+      }
+      button {
+        padding: 12px 20px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 3px;
+      }
+    }
+  }
+  .delete {
+    display: flex;
+    align-self: flex-end;
+    margin: 10px 50px;
+   
+
+    button {
+      padding: 5px 10px;
+      background-color: red;
+      border: none;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+
+  .list {
+    width: 80%;
+
+    .listItems {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      align-items: center;
+      ul {
+        li {
+          text-decoration: none;
+        }
+      }
+      .hideCheck {
+        display: none;
+      }
+    }
+    .show {
+    }
+    .options {
+      display: flex;
+      flex-direction: column;
+      span {
+        border: 1px solid lightgray;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+
+    .tog {
+      display: none;
+    }
+  }
+}

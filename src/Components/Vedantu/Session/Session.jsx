@@ -14,7 +14,7 @@ function Session() {
 
                 <div className="left">
                     <h1>Book your  <span>  Free Demo</span> session</h1>
-                    <p>Get a free academic counselling session</p>
+                    <p>Get a free academic couns  elling session</p>
                     <button>Book a  free Demo</button>
                 </div>
                 <div className="right">

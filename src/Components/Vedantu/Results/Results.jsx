@@ -1,20 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Results.scss'
 import Carousel from '../Carousel/Carousel'
 import { resultData } from '../Data/Data'
 import ResultSlider from '../ResultSlider/ResultSlider'
 function Results() {
-
+ 
   const [toggle, setToggle] = useState(1)
 
   const handleToggle = (id) => {
-    
-
-  
     setToggle(id)
-  }
-  useEffect(()=>{
-  },[toggle])
   }
   return (
     <div className="resultContainer">
@@ -35,9 +29,9 @@ function Results() {
 
             {arr.map((item) => {
               return (
-                <button onClick={() => handleToggle(item.id)}>
-                  {item.name}
-                </button>)
+                <button  onClick={() => handleToggle(item.id)}>
+                {item.name}
+              </button>              )
             })}
             <div>
               <img src="https://www.vedantu.com/cdn/images/new-home-page/B2/results-hero-image.webp" alt="" />
@@ -45,9 +39,9 @@ function Results() {
           </div>
 
         </div>
+      
 
-
-        <div className={toggle === 1 ? "toggle" : "slider"}>
+        <div className={toggle=== 1 ? "toggle" : "slider"}>
           <div>
             <Carousel>
               {resultData.map(item => (
@@ -57,7 +51,7 @@ function Results() {
           </div>
 
         </div>
-        <div className={toggle === 2 ? "toggle" : "slider"}>
+        <div className={toggle=== 2 ? "toggle" : "slider"}>
           <div>
             <Carousel arrows={false}>
               {resultData.map(item => (
@@ -69,46 +63,69 @@ function Results() {
         </div>
 
 
+       
+        <div className={toggle === 3 ? "toggle" : "slider"}>
+  <div>
+    <Carousel>
+      {resultData.map((item) => {
+        if (item.id === 3) {
+          return <ResultSlider data={item} key={item.id} />;
+        }
+        return null;
+      })}
+    </Carousel>
+  </div>
+</div>
 
-        {/* <div className={toggle === 3 ? "toggle" : "slider"}>
-          <div>
-            <Carousel>
-              {resultData.map((item) => {
-                if (item.id === 3) {
-                  return <ResultSlider data={item} key={item.id=3} />;
-                }
-                return null;
-              })}
-            </Carousel>
-          </div>
-        </div> */}
-
-        {/* <div className={toggle=== 4 ? "toggle" : "slider"}>
-          <div>
-            <Carousel>
-             {resultData.map((item)=>{
-         
-              <ResultSlider data={item} key={item.id}/>
-      
-             })}
-            </Carousel>
-          </div>
-
-        </div>
-
-         <div className={toggle=== 5 ? "toggle" : "slider"}>
-          <div>
-            <Carousel>
-             {resultData.map((item)=>{
-         
-              <ResultSlider data={item} key={item.id}/>
-      
-             })}
-            </Carousel>
-          </div>
-
-        </div> */}
-
+<div className={toggle === 4 ? "toggle" : "slider"}>
+  <div>
+    <Carousel>
+      {resultData.map((item) => {
+        if (item.id === 4) {
+          return <ResultSlider data={item} key={item.id} />;
+        }
+        return null;
+      })}
+    </Carousel>
+  </div>
+</div>
+        
+<div className={toggle === 5 ? "toggle" : "slider"}>
+  <div>
+    <Carousel>
+      {resultData.map((item) => {
+        if (item.id === 5) {
+          return <ResultSlider data={item} key={item.id} />;
+        }
+        return null;
+      })}
+    </Carousel>
+  </div>
+</div>
+<div className={toggle === 6 ? "toggle" : "slider"}>
+  <div>
+    <Carousel>
+      {resultData.map((item) => {
+        if (item.id === 6) {
+          return <ResultSlider data={item} key={item.id} />;
+        }
+        return null;
+      })}
+    </Carousel>
+  </div>
+</div>
+<div className={toggle === 7    ? "toggle" : "slider"}> 
+  <div>
+    <Carousel>
+      {resultData.map((item) => {
+        if (item.id === 7  ) {
+          return <ResultSlider data={item} key={item.id} />;
+        }
+        return null;
+      })}
+    </Carousel>
+  </div>
+</div>
       </div>
     </div>
   )

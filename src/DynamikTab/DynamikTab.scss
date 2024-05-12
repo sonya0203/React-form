@@ -1,9 +1,42 @@
-.dynamik{
-    display: flex;
-    .top{
-        width: 100px;
+.container {
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+ 
+.tab{
+  display: flex;
+  padding: 50px;
+  gap: 20px;
+}
+    button {
+      background-color: aqua;
+display: flex;
+      font-size: 20px;
+      border-radius: 10px;
+      border: none;
+      padding: 10px;
     }
-    .tog{
-        display: block;
+ 
+}
+
+.top {
+  display: none;
+}
+.tog {
+  display: block;
+}
+.dynamik{
+  div{
+  justify-content: center;
+  align-items: center;
+  }
+    p{
+        color: orangered;
+        font-weight: bold;
+        font-size: 20px;
     }
 }
